@@ -1,0 +1,2109 @@
+(node:20752) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `swimm-ide-server --trace-deprecation ...` to show where the warning was created)
+(node:20752) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(node:20752) MetadataLookupWarning: received unexpected error = network timeout at: http://169.254.169.254/computeMetadata/v1/instance code = UNKNOWN
+(node:20752) MetadataLookupWarning: received unexpected error = network timeout at: http://169.254.169.254/computeMetadata/v1/instance code = UNKNOWN
+(node:20752) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `swimm-ide-server --trace-deprecation ...` to show where the warning was created)
+(node:20752) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(node:20752) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+(node:20752) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect them to change at any time.
+[11:15:19.466] [32mINFO[39m (ide/server/20752 on LTIN489482): [36mServer listening at \\.\pipe\swimm-server-199d59cd9f8d2d0f90232ab6c5e6f346-sock[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........3zw3EIPTWEOvJEFNfn5ZMI"
+[[object Object]] [32mINFO[39m (20752 on LTIN489482):
+    severity: "INFO"
+    logging.googleapis.com/diagnostic: {
+      "instrumentation_source": [
+        {
+          "name": "nodejs-gcppino",
+          "version": "1.2.0"
+        },
+        {
+          "name": "nodejs",
+          "version": "11.2.1"
+        }
+      ],
+      "runtime": "v22.17.1"
+    }
+    logging.googleapis.com/insertId: "..........7zw3EIPTWEOvJEFNfn5ZMI"
+[11:15:33.023] [32mINFO[39m (ide/server/src/extra-logging.ts/20752 on LTIN489482): [36mSetting extra logging to false[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........Bzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:33.027] [32mINFO[39m (ide/server/src/extra-logging.ts/20752 on LTIN489482): [36mInfo after setting log level enabled=false[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........Fzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:33.998] [32mINFO[39m (ide/server/src/indexer.ts/20752 on LTIN489482): [36mIn resetFolders indexes.size=0 folders.size=0[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........Jzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:34.141] [32mINFO[39m (ide/server/src/indexer.ts/20752 on LTIN489482): [36mIn resetFolders indexes.size=0 folders.size=0[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........Nzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:34.142] [32mINFO[39m (ide/server/20752 on LTIN489482): [36mInitialized with: 1 folders hasToken=true[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........Rzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:34.871] [32mINFO[39m (ide/server/src/ide-swimm-backend-client.ts/20752 on LTIN489482): [36mSwimm API initialized with baseUrl: https://app.swimm.io[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........Vzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:38.773] [32mINFO[39m (ide/server/20752 on LTIN489482): [36mgit version is: git version 2.51.2.windows.1[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........Zzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:39.281] [32mINFO[39m (ide/server/src/indexer.ts/20752 on LTIN489482): [36mServer initialization done, resolving promise[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........czw3EIPTWEOvJEFNfn5ZMI"
+[11:15:39.282] [32mINFO[39m (ide/server/20752 on LTIN489482): [36mServer initialization completed with 1 added[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........gzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:39.461] [32mINFO[39m (ide/server/src/repo-utils.ts/20752 on LTIN489482): [36mFetched repo ID 'Z2l0aHViJTNBJTNBY2ljcy1nZW5hcHAtZGVtbyUzQSUzQXN3aW1taW8='[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........kzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:40.099] [32mINFO[39m (ide/server/20752 on LTIN489482): [36mconfig={"min_supported_version":"1.50.0","excluded_versions":[]}[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........ozw3EIPTWEOvJEFNfn5ZMI"
+[11:15:40.678] [32mINFO[39m (ide/server/src/ctags.ts/20752 on LTIN489482): [36m[generateCTagsForRepository-progress] started (2 steps: generate (25.0%), parse (75.0%))[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........szw3EIPTWEOvJEFNfn5ZMI"
+[11:15:40.680] [32mINFO[39m (ide/server/src/ctags.ts/20752 on LTIN489482): [36m[generateCTagsForRepository-progress] Step generate started[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: "..........wzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:40.706] [32mINFO[39m (packages/code-analysis/src/analysis/ctags.ts/20752 on LTIN489482): [36mGenerating CTags for repo cics-genapp-demo...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0.zw3EIPTWEOvJEFNfn5ZMI"
+[11:15:44.571] [32mINFO[39m (packages/code-analysis/src/analysis/ctags.ts/20752 on LTIN489482): [36mGenerated CTags for repo cics-genapp-demo in 3865ms[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........03zw3EIPTWEOvJEFNfn5ZMI"
+[11:15:44.572] [32mINFO[39m (ide/server/src/ctags.ts/20752 on LTIN489482): [36m[generateCTagsForRepository-progress] Step generate completed in 3.89s. Remaining steps: 2 steps: parse (75.0%)[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........07zw3EIPTWEOvJEFNfn5ZMI"
+[11:15:44.574] [32mINFO[39m (ide/server/src/ctags.ts/20752 on LTIN489482): [36m[generateCTagsForRepository-progress] Step parse started[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0Bzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:44.575] [32mINFO[39m (ide/server/src/ctags.ts/20752 on LTIN489482): [36m[generateCTagsForRepository-progress] Step parse progress: 0.9%[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0Fzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:44.576] [32mINFO[39m (ide/server/src/ctags.ts/20752 on LTIN489482): [36m[generateCTagsForRepository-progress] Step parse completed in 0.00s. Remaining steps: 2 steps: [39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0Jzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:44.577] [32mINFO[39m (ide/server/src/ctags.ts/20752 on LTIN489482): [36m[generateCTagsForRepository-progress] All steps completed. Summary: 
+- generate: 3.89s
+- parse: 0.00s.[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0Nzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:44.577] [32mINFO[39m (ide/server/src/ctags.ts/20752 on LTIN489482): [36mbuildCtagsTokens for Z2l0aHViJTNBJTNBY2ljcy1nZW5hcHAtZGVtbyUzQSUzQXN3aW1taW8= took 4211ms and built 0 tokens from 154 files[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0Rzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:45.076] [32mINFO[39m (ide/server/src/firebase.ts/20752 on LTIN489482): [36mGot rules limit = {"isUnlimited":true,"value":1.7976931348623157e+308}[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0Vzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:45.312] [32mINFO[39m (ide/server/src/indexer.ts/20752 on LTIN489482): [36mFound 0 cross snippets for repoId=Z2l0aHViJTNBJTNBY2ljcy1nZW5hcHAtZGVtbyUzQSUzQXN3aW1taW8= workspaceId=oOazcZPc9jPd3RMYaD6S[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0Zzw3EIPTWEOvJEFNfn5ZMI"
+[11:15:56.207] [31mERROR[39m (ide/server/src/indexer.ts/20752 on LTIN489482): [36mFailed to fetch On-Prem agent version[39m
+    severity: "ERROR"
+    stack_trace: "FetchError: The request failed and the interceptors did not return an alternative response\n    at CH.<anonymous> (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:2059:100090)\n    at Generator.throw (<anonymous>)\n    at u (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:2059:98650)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+    logging.googleapis.com/insertId: ".........0czw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "ude",
+      "message": "The request failed and the interceptors did not return an alternative response: fetch failed: getaddrinfo ENOTFOUND neuroaieng.com",
+      "stack":
+          FetchError: The request failed and the interceptors did not return an alternative response
+              at CH.<anonymous> (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:2059:100090)
+              at Generator.throw (<anonymous>)
+              at u (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:2059:98650)
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+          caused by: TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+          caused by: Error: getaddrinfo ENOTFOUND neuroaieng.com
+              at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+              at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+      "name": "FetchError"
+    }
+[11:17:04.236] [32mINFO[39m (ide/server/src/ask-swimm.ts/20752 on LTIN489482): [36mLoading knowledge base for repo Z2l0aHViJTNBJTNBY2ljcy1nZW5hcHAtZGVtbyUzQSUzQXN3aW1taW8= for ask[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0gzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:04.246] [32mINFO[39m (ide/server/src/ask-swimm.ts/20752 on LTIN489482): [36mReading cics-genapp-demo knowledge base from C:\Users\775109\AppData\Roaming\Swimm\generated\cics-genapp-demo...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0kzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:04.247] [32mINFO[39m (packages/code-analysis/src/generative-ai/repo-knowledge-base.ts/20752 on LTIN489482): [36mReading cics-genapp-demo knowledge base from C:\Users\775109\AppData\Roaming\Swimm\generated\cics-genapp-demo...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0ozw3EIPTWEOvJEFNfn5ZMI"
+[11:17:04.264] [32mINFO[39m (ide/server/src/ask-swimm.ts/20752 on LTIN489482): [36mLoading knowledge base for repo Z2l0aHViJTNBJTNBY2ljcy1nZW5hcHAtZGVtbyUzQSUzQXN3aW1taW8= for generate[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0szw3EIPTWEOvJEFNfn5ZMI"
+[11:17:04.326] [32mINFO[39m (ide/server/src/ask-swimm.ts/20752 on LTIN489482): [36mReading cics-genapp-demo knowledge base from C:\Users\775109\AppData\Roaming\Swimm\generated\cics-genapp-demo-generate-docs...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........0wzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:04.326] [32mINFO[39m (packages/code-analysis/src/generative-ai/repo-knowledge-base.ts/20752 on LTIN489482): [36mReading cics-genapp-demo knowledge base from C:\Users\775109\AppData\Roaming\Swimm\generated\cics-genapp-demo-generate-docs...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........1.zw3EIPTWEOvJEFNfn5ZMI"
+[11:17:04.356] [33mWARN[39m (packages/code-analysis/src/generative-ai/shardedEmbeddings.ts/20752 on LTIN489482): [36mNo shards found in the specified directory - will proceed with empty vector DB[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........13zw3EIPTWEOvJEFNfn5ZMI"
+[11:17:06.146] [32mINFO[39m (ide/server/src/ask-swimm.ts/20752 on LTIN489482): [36mFinished reading knowledge base[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........17zw3EIPTWEOvJEFNfn5ZMI"
+[11:17:06.147] [32mINFO[39m (ide/server/src/ask-swimm.ts/20752 on LTIN489482): [36mFinished reading knowledge base[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........1Bzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:06.253] [32mINFO[39m (ide/server/src/indexer.ts/20752 on LTIN489482): [36mstart calculateDocumentsApplicability for repoId=Z2l0aHViJTNBJTNBY2ljcy1nZW5hcHAtZGVtbyUzQSUzQXN3aW1taW8=[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........1Fzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:07.280] [32mINFO[39m (ide/server/src/firestore.ts/20752 on LTIN489482): [36mReported ide usage to ide-usages/dbad808e18050b4a1a7f6b765b305db8b0f5515d98e3e94a0a1aeb209c4efabd[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........1Jzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:11.019] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (2) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........1Nzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:11.020] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (2) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........1Rzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:11.021] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (5) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........1Vzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:11.022] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (2) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........1Zzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:17.545] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (3) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........1czw3EIPTWEOvJEFNfn5ZMI"
+[11:17:17.547] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (3) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........1gzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:17.558] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (3) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........1kzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:17.608] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (2) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........1ozw3EIPTWEOvJEFNfn5ZMI"
+[11:17:17.608] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (2) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........1szw3EIPTWEOvJEFNfn5ZMI"
+[11:17:17.609] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (6) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........1wzw3EIPTWEOvJEFNfn5ZMI"
+[11:17:17.610] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (2) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........2.zw3EIPTWEOvJEFNfn5ZMI"
+[11:17:17.611] [33mWARN[39m (packages/shared/src/utils/apply-utils.ts/20752 on LTIN489482): [36mEncountered more than one (2) match when checking for applicability.[39m
+    severity: "WARNING"
+    logging.googleapis.com/insertId: ".........23zw3EIPTWEOvJEFNfn5ZMI"
+[11:17:19.133] [32mINFO[39m (ide/server/src/indexer.ts/20752 on LTIN489482): [36mcalculateDocumentsApplicability allPromises settled for repoId=Z2l0aHViJTNBJTNBY2ljcy1nZW5hcHAtZGVtbyUzQSUzQXN3aW1taW8= - now computing the branch[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........27zw3EIPTWEOvJEFNfn5ZMI"
+[11:17:19.134] [32mINFO[39m (ide/server/src/indexer.ts/20752 on LTIN489482): [36mcalculateDocumentsApplicability completed for repoId=Z2l0aHViJTNBJTNBY2ljcy1nZW5hcHAtZGVtbyUzQSUzQXN3aW1taW8= with docs=38 promises=38 took 12.881 seconds[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2Bzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:09.523] [32mINFO[39m (ide/server/src/generated-docs-wrapper.ts/20752 on LTIN489482): [36mStart discover entities[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2Fzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:09.569] [32mINFO[39m (ide/server/src/generated-docs-wrapper.ts/20752 on LTIN489482): [36mDiscovering entities for repo Z2l0aHViJTNBJTNBY2ljcy1nZW5hcHAtZGVtbyUzQSUzQXN3aW1taW8=[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2Jzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:09.607] [32mINFO[39m (packages/code-analysis/src/analysis/git-grep.ts/20752 on LTIN489482): [36mRunning grep for finding repo files[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2Nzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.144] [32mINFO[39m (packages/code-analysis/src/analysis/git-grep.ts/20752 on LTIN489482): [36mFound 1 files so far...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2Rzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.152] [32mINFO[39m (packages/code-analysis/src/analysis/git-grep.ts/20752 on LTIN489482): [36mGrep for files finished with 302 results[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2Vzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.200] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/discover/find-entities/find-entities.ts/20752 on LTIN489482): [36mStart finding entities...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2Zzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.208] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/discover/find-entities/find-entities.ts/20752 on LTIN489482): [36mdiscovering entities using 293 relevant files out of 302 files[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2czw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.240] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/discover/find-entities/find-entities-from-files.ts/20752 on LTIN489482): [36mStarting complexity calc[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2gzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.245] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/discover/find-entities/find-entities-from-files.ts/20752 on LTIN489482): [36mDone complexity calc[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2kzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.248] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/discover/find-entities/code-analysis-based-find-entities.ts/20752 on LTIN489482): [36mFound 3 entities from files[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2ozw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.468] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] extractFunctionCalls after 0.21s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2szw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.470] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] getWeightedCallGraph after 0.00s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........2wzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.507] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] findHeavySharedRoots after 0.04s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3.zw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.512] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] getHeavyNonSharedRootsWithFallback after 0.01s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........33zw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.514] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] postFilterHeavyNonSharedFlows after 0.00s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........37zw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.514] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] enrichFlowWithDetailedCallGraph after 0.00s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3Bzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.514] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] Summary:252ms
+  extractFunctionCalls: 206ms
+  getWeightedCallGraph: 1ms
+  findHeavySharedRoots: 37ms
+  getHeavyNonSharedRootsWithFallback: 5ms
+  postFilterHeavyNonSharedFlows: 2ms
+  enrichFlowWithDetailedCallGraph: 0ms}[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3Fzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.514] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/discover/find-entities/code-analysis-based-find-entities.ts/20752 on LTIN489482): [36mFound 45 flows.[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3Jzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.517] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/discover/find-entities/code-analysis-based-find-entities.ts/20752 on LTIN489482): [36mFound 0 entities from flows[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3Nzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.517] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/discover/find-entities/entities-enrichment.ts/20752 on LTIN489482): [36moverview_timing: Preparing entities took 0ms[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3Rzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.635] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/cobol-docs/screen-docs.ts/20752 on LTIN489482): [36mDiscovered 4 screen docs in the repo[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3Vzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.636] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] extractFunctionCalls after 0.07s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3Zzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.636] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] getWeightedCallGraph after 0.00s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3czw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.638] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] postFilterHeavyNonSharedFlows after 0.00s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3gzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.638] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] enrichFlowWithDetailedCallGraph after 0.00s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3kzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.638] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36m[timer] Summary:75ms
+  extractFunctionCalls: 73ms
+  getWeightedCallGraph: 0ms
+  postFilterHeavyNonSharedFlows: 2ms
+  enrichFlowWithDetailedCallGraph: 0ms}[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3ozw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.638] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/class-docs-utils.ts/20752 on LTIN489482): [36m[timer] found 0 type anchors after 0.07s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3szw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.638] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/class-docs-utils.ts/20752 on LTIN489482): [36m[timer] filtered 0 anchors to only errors and exceptions after 0.00s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........3wzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.638] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/class-docs-utils.ts/20752 on LTIN489482): [36mFound 0/15 Types to make class docs out of[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4.zw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.639] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/find-flow-docs.ts/20752 on LTIN489482): [36mNo flows found for [object Object][39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........43zw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.639] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/class-docs-utils.ts/20752 on LTIN489482): [36m[timer] finding classes to document after 0.00s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........47zw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.645] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/class-docs-utils.ts/20752 on LTIN489482): [36m[timer] finding overview class docs after 0.01s[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4Bzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.646] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/class-docs-utils.ts/20752 on LTIN489482): [36m[timer] Summary:83ms
+  found 0 type anchors: 75ms
+  filtered 0 anchors to only errors and exceptions: 0ms
+  finding classes to document: 1ms
+  finding overview class docs: 6ms}[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4Fzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.660] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/cobol-docs/program-docs.ts/20752 on LTIN489482): [36mDiscovered 79 COBOL program docs in the repo[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4Jzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:11.660] [32mINFO[39m (find-docs/20752 on LTIN489482): [36moverview_timing: Finding docs took 97ms. Found 0 overview docs, 0 flow docs, 0 class docs, 0 build tool docs, 79 COBOL program docs, 60 Cobol job docs,
+    4 screen docs, 0 control m docs, 4 Rexx docs[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4Nzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:15.388] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/wrappers.ts/20752 on LTIN489482): [36mStarted generating paragraph of type mainframe-summary[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4Rzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:16.907] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4Vzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:16.908] [32mINFO[39m (ide/server/src/firebase.ts/20752 on LTIN489482): [36mGetting openAI on-prem endpoint for workspace oOazcZPc9jPd3RMYaD6S... [39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4Zzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:16.951] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/wrappers.ts/20752 on LTIN489482): [36mStarted generating paragraph of type mainframe-summary[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4czw3EIPTWEOvJEFNfn5ZMI"
+[11:33:16.997] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4gzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:16.998] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/wrappers.ts/20752 on LTIN489482): [36mStarted generating paragraph of type mainframe-summary[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4kzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:17.037] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4ozw3EIPTWEOvJEFNfn5ZMI"
+[11:33:17.038] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/wrappers.ts/20752 on LTIN489482): [36mStarted generating paragraph of type mainframe-summary[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4szw3EIPTWEOvJEFNfn5ZMI"
+[11:33:17.076] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........4wzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:17.077] [32mINFO[39m (packages/code-analysis/src/generative-ai/generated-docs/wrappers.ts/20752 on LTIN489482): [36mStarted generating paragraph of type mainframe-summary[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........5.zw3EIPTWEOvJEFNfn5ZMI"
+[11:33:18.924] [32mINFO[39m (ide/server/src/firebase.ts/20752 on LTIN489482): [36mGot openAI on-prem endpoint for workspace oOazcZPc9jPd3RMYaD6S: https://neuroaieng.com[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........53zw3EIPTWEOvJEFNfn5ZMI"
+[11:33:18.925] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........57zw3EIPTWEOvJEFNfn5ZMI"
+[11:33:18.928] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........5Bzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:18.929] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........5Fzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:19.035] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........5Jzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:30.019] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........5Nzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: getaddrinfo ENOTFOUND neuroaieng.com",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: Error: getaddrinfo ENOTFOUND neuroaieng.com
+              at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+              at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+    }
+[11:33:30.024] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........5Rzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:30.078] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........5Vzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:30.162] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........5Zzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: getaddrinfo ENOTFOUND neuroaieng.com",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: Error: getaddrinfo ENOTFOUND neuroaieng.com
+              at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:122:26)
+              at GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+    }
+[11:33:31.034] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........5czw3EIPTWEOvJEFNfn5ZMI"
+[11:33:31.035] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........5gzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:34.731] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at runNextTicks (node:internal/process/task_queues:69:3)\n    at process.processImmediate (node:internal/timers:453:9)\n    at process.topLevelDomainCallback (node:domain:161:15)\n    at process.callbackTrampoline (node:internal/async_hooks:128:24)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........5kzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at runNextTicks (node:internal/process/task_queues:69:3)
+              at process.processImmediate (node:internal/timers:453:9)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:33:34.750] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........5ozw3EIPTWEOvJEFNfn5ZMI"
+[11:33:34.752] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........5szw3EIPTWEOvJEFNfn5ZMI"
+[11:33:34.977] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........5wzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:33:35.765] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........6.zw3EIPTWEOvJEFNfn5ZMI"
+[11:33:35.767] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........63zw3EIPTWEOvJEFNfn5ZMI"
+[11:33:45.650] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........67zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:33:45.651] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........6Bzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:45.715] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........6Fzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:46.668] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........6Jzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:33:46.668] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........6Nzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:46.749] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........6Rzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:50.717] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........6Vzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:33:50.717] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........6Zzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:50.762] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........6czw3EIPTWEOvJEFNfn5ZMI"
+[11:33:51.229] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........6gzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:33:51.718] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........6kzw3EIPTWEOvJEFNfn5ZMI"
+[11:33:51.719] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........6ozw3EIPTWEOvJEFNfn5ZMI"
+[11:34:01.382] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........6szw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:01.384] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........6wzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:01.459] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........7.zw3EIPTWEOvJEFNfn5ZMI"
+[11:34:02.382] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........73zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:02.483] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........77zw3EIPTWEOvJEFNfn5ZMI"
+[11:34:02.484] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........7Bzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:06.444] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........7Fzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:06.447] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........7Jzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:06.631] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........7Nzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:06.952] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........7Rzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:07.550] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........7Vzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:07.550] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........7Zzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:17.449] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........7czw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:17.452] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........7gzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:17.587] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........7kzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:18.458] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........7ozw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:18.459] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........7szw3EIPTWEOvJEFNfn5ZMI"
+[11:34:18.580] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........7wzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:22.507] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........8.zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:22.509] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........83zw3EIPTWEOvJEFNfn5ZMI"
+[11:34:22.613] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........87zw3EIPTWEOvJEFNfn5ZMI"
+[11:34:23.011] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........8Bzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:23.524] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........8Fzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:23.525] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........8Jzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:33.064] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........8Nzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:33.065] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........8Rzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:33.172] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........8Vzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:34.072] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........8Zzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:34.074] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........8czw3EIPTWEOvJEFNfn5ZMI"
+[11:34:34.172] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........8gzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:38.093] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........8kzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:38.095] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........8ozw3EIPTWEOvJEFNfn5ZMI"
+[11:34:38.207] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........8szw3EIPTWEOvJEFNfn5ZMI"
+[11:34:39.108] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........8wzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:39.110] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........9.zw3EIPTWEOvJEFNfn5ZMI"
+[11:34:39.212] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........93zw3EIPTWEOvJEFNfn5ZMI"
+[11:34:48.713] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........97zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:48.715] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........9Bzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:48.831] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........9Fzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:49.711] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........9Jzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:49.814] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........9Nzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:49.814] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........9Rzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:53.729] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........9Vzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:53.731] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........9Zzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:53.839] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........9czw3EIPTWEOvJEFNfn5ZMI"
+[11:34:55.242] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........9gzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:34:55.244] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........9kzw3EIPTWEOvJEFNfn5ZMI"
+[11:34:55.447] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........9ozw3EIPTWEOvJEFNfn5ZMI"
+[11:35:04.929] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........9szw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:04.930] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........9wzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:05.035] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........A.zw3EIPTWEOvJEFNfn5ZMI"
+[11:35:05.942] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........A3zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:05.944] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........A7zw3EIPTWEOvJEFNfn5ZMI"
+[11:35:06.075] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........ABzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:09.963] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........AFzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:09.965] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........AJzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:10.063] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........ANzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:10.962] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........ARzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:11.065] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........AVzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:11.066] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........AZzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:20.510] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Aczw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:20.512] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Agzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:20.620] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Akzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:21.524] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Aozw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:21.525] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Aszw3EIPTWEOvJEFNfn5ZMI"
+[11:35:21.645] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Awzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:25.529] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........B.zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:25.531] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........B3zw3EIPTWEOvJEFNfn5ZMI"
+[11:35:25.627] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........B7zw3EIPTWEOvJEFNfn5ZMI"
+[11:35:26.543] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........BBzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:26.544] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........BFzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:26.661] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........BJzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:36.070] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........BNzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:36.071] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........BRzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:36.226] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........BVzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:37.095] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........BZzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:37.098] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Bczw3EIPTWEOvJEFNfn5ZMI"
+[11:35:37.240] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Bgzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:41.178] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Bkzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:41.180] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Bozw3EIPTWEOvJEFNfn5ZMI"
+[11:35:41.285] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Bszw3EIPTWEOvJEFNfn5ZMI"
+[11:35:42.203] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Bwzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:42.205] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........C.zw3EIPTWEOvJEFNfn5ZMI"
+[11:35:42.358] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........C3zw3EIPTWEOvJEFNfn5ZMI"
+[11:35:51.887] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........C7zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:51.888] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........CBzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:52.073] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........CFzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:52.907] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........CJzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:52.909] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........CNzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:53.023] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........CRzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:56.990] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........CVzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:56.995] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........CZzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:57.127] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Cczw3EIPTWEOvJEFNfn5ZMI"
+[11:35:58.012] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Cgzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:35:58.013] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Ckzw3EIPTWEOvJEFNfn5ZMI"
+[11:35:58.107] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Cozw3EIPTWEOvJEFNfn5ZMI"
+[11:36:07.692] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Cszw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:07.693] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Cwzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:07.733] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........D.zw3EIPTWEOvJEFNfn5ZMI"
+[11:36:08.714] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........D3zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:08.715] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........D7zw3EIPTWEOvJEFNfn5ZMI"
+[11:36:08.758] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........DBzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:12.802] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........DFzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:12.803] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........DJzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:12.842] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........DNzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:13.811] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........DRzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:13.812] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........DVzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:13.850] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........DZzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:23.495] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Dczw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:23.495] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Dgzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:23.533] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Dkzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:24.519] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Dozw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:24.520] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Dszw3EIPTWEOvJEFNfn5ZMI"
+[11:36:24.588] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Dwzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:28.599] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........E.zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:28.600] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........E3zw3EIPTWEOvJEFNfn5ZMI"
+[11:36:28.639] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........E7zw3EIPTWEOvJEFNfn5ZMI"
+[11:36:29.620] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........EBzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:29.621] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........EFzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:29.660] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........EJzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:39.302] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........ENzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:39.303] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........ERzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:39.340] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........EVzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:40.323] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........EZzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:40.324] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Eczw3EIPTWEOvJEFNfn5ZMI"
+[11:36:40.363] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Egzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:44.409] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Ekzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:44.410] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Eozw3EIPTWEOvJEFNfn5ZMI"
+[11:36:44.450] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Eszw3EIPTWEOvJEFNfn5ZMI"
+[11:36:45.429] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Ewzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:45.430] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........F.zw3EIPTWEOvJEFNfn5ZMI"
+[11:36:45.472] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........F3zw3EIPTWEOvJEFNfn5ZMI"
+[11:36:55.643] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........F7zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:55.645] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........FBzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:55.730] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........FFzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:56.663] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........FJzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:36:56.663] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........FNzw3EIPTWEOvJEFNfn5ZMI"
+[11:36:56.703] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........FRzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:00.748] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........FVzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:00.749] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........FZzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:00.796] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Fczw3EIPTWEOvJEFNfn5ZMI"
+[11:37:01.773] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Fgzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:01.774] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Fkzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:01.811] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Fozw3EIPTWEOvJEFNfn5ZMI"
+[11:37:11.434] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Fszw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:11.435] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Fwzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:11.484] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........G.zw3EIPTWEOvJEFNfn5ZMI"
+[11:37:12.458] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........G3zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:12.459] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........G7zw3EIPTWEOvJEFNfn5ZMI"
+[11:37:12.498] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........GBzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:16.542] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........GFzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:16.543] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........GJzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:16.584] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........GNzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:17.560] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........GRzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:17.561] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........GVzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:17.606] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........GZzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:27.245] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Gczw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:27.246] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Ggzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:27.283] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Gkzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:28.264] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Gozw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:28.265] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Gszw3EIPTWEOvJEFNfn5ZMI"
+[11:37:28.349] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Gwzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:32.343] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........H.zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:32.344] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........H3zw3EIPTWEOvJEFNfn5ZMI"
+[11:37:32.386] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........H7zw3EIPTWEOvJEFNfn5ZMI"
+[11:37:33.361] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........HBzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:33.362] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........HFzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:33.399] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........HJzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:43.072] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........HNzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:43.073] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........HRzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:43.112] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........HVzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:44.090] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........HZzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:44.091] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Hczw3EIPTWEOvJEFNfn5ZMI"
+[11:37:44.128] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Hgzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:48.176] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Hkzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:48.177] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Hozw3EIPTWEOvJEFNfn5ZMI"
+[11:37:48.215] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........Hszw3EIPTWEOvJEFNfn5ZMI"
+[11:37:49.197] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........Hwzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:49.198] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........I.zw3EIPTWEOvJEFNfn5ZMI"
+[11:37:49.248] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........I3zw3EIPTWEOvJEFNfn5ZMI"
+[11:37:58.870] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........I7zw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:58.871] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........IBzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:58.908] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........IFzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:59.883] [31mERROR[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mnetwork error[39m
+    severity: "ERROR"
+    stack_trace: "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)"
+    logging.googleapis.com/insertId: ".........IJzw3EIPTWEOvJEFNfn5ZMI"
+    err: {
+      "type": "TypeError",
+      "message": "fetch failed: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)",
+      "stack":
+          TypeError: fetch failed
+              at node:internal/deps/undici/undici:13510:13
+              at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+              at async Cjr (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\app.js:7157:7008)
+          caused by: ConnectTimeoutError: Connect Timeout Error (attempted address: neuroaieng.com:443, timeout: 15000ms)
+              at lD (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37673)
+              at Immediate._onImmediate (C:\snapshot\swimm\ide\server\build-win-x64\dist-minified\chunk-QAPROCEY.js:1:37098)
+              at process.processImmediate (node:internal/timers:485:21)
+              at process.topLevelDomainCallback (node:domain:161:15)
+              at process.callbackTrampoline (node:internal/async_hooks:128:24)
+    }
+[11:37:59.883] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mOpening OpenAI stream for documentGeneration request (requestId="discover-6hsy7", workspaceId="oOazcZPc9jPd3RMYaD6S")...[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........INzw3EIPTWEOvJEFNfn5ZMI"
+[11:37:59.928] [32mINFO[39m (packages/code-analysis/src/generative-ai/llm/gpt-proxy.ts/20752 on LTIN489482): [36mAsk endpoint for oOazcZPc9jPd3RMYaD6S is https://neuroaieng.com/agent-api[39m
+    severity: "INFO"
+    logging.googleapis.com/insertId: ".........IRzw3EIPTWEOvJEFNfn5ZMI"
